@@ -14,6 +14,8 @@ Detect keypresses
         - delete last letter in "letters"
             - update tile markup based on "letters"
 
+Dont run update function if "letters" length = 4
+
 Typing in the letter will display the letter in the title
 Backspace will delete letters
 Enter will submit guess
