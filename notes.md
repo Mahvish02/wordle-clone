@@ -25,8 +25,8 @@
 ## Submit guess
 
 [DONE] Pressing Enter will submit guess
-    - compare each letter with the corresponding letter in the solution word
-    - update the state/color of the letter
+[DONE]   - compare each letter with the corresponding letter in the solution word
+[DONE]    - update the state/color of the letter
     - If all letters are "correct" / green, game is won
 
 [DONE] Typing in the letter will display the letter in the title
@@ -58,3 +58,5 @@ When typing a letter:
 
 When submitting guess:
     - Tiles will flip up and background color will change on guess
+    - Slight delay between each tile flipping
+    - Background color changes when tile is flat, i.e. can't see it
