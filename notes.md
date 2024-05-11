@@ -4,23 +4,36 @@
 
 6 tries to guess a 5-letter word
 
+## Pick a solution word
+
+[DONE] Store solution words in a JSON object / array
+[DONE] when game is loaded, choose a random item from the array
+[DONE] Set solution to that word
+
 ## Making a guess
 
-Detect keypresses
-    - if keypress is a letter
-        - update "letters" attribute
-            - update tile markup based on "letters" value
-    - if keypress is backspace
-        - delete last letter in "letters"
-            - update tile markup based on "letters"
+[DONE] Detect keypresses
+[DONE] - if keypress is a letter
+[DONE]  - update "letters" attribute
+[DONE]   - update tile markup based on "letters" value
+[DONE] - if keypress is backspace
+[DONE]  - delete last letter in "letters"
+[DONE]   - update tile markup based on "letters"
 
-Dont run update function if "letters" length = 4
+[DONE] Dont run update function if "letters" length = 4
 
-Typing in the letter will display the letter in the title
-Backspace will delete letters
+## Submit guess
+
+[DONE] Pressing Enter will submit guess
+    - compare each letter with the corresponding letter in the solution word
+    - update the state/color of the letter
+    - If all letters are "correct" / green, game is won
+
+[DONE] Typing in the letter will display the letter in the title
+[DONE] Backspace will delete letters
 Enter will submit guess
 
-Guesses must be are real word, in "word list"
+Guesses must be a real word, in "word list"
 
 Guess colors (data-state): 
     - gray: "absent", letter not in word

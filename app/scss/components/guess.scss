@@ -16,4 +16,20 @@
         font-size: rem(32);
         font-weight: 600;
     }
+
+    .correct {
+        background-color: hsl(120, 100%, 25%);
+        border-color: hsl(120, 100%, 25%);
+    }
+
+    .present {
+        background-color: hsl(49, 51%, 47%);
+        border-color: hsl(49, 51%, 47%);
+    }
+
+    .absent {
+        background-color: hsl(0, 0%, 50%);
+        border-color: hsl(0, 0%, 50%);
+
+    }
 }
